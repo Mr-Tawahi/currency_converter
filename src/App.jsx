@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <h1>hello</h1>
+    <h1>Value of usd to Inr: {response['inr']}</h1>
     </>
   )
 }
