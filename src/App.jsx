@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
-    <h1>Value of usd to Inr: {response['inr']}</h1>
+    <h1 className='text-red-700 text-center font-bold text-2xl'>Currency Converter</h1>
+    <h1 className='text-blue-700 text-center font-bold text-2xl'>Value of usd to Inr: {response['inr']}</h1>
     </>
   )
 }
 
 export default App
+ 
