@@ -6,7 +6,7 @@ import InputBox from './components/InputBox'
 import './App.css'
 
 function App() {
-  const [Amount,set_Amount]=useState(0)
+  const [Amount,set_Amount]=useState(null)
   const [converted_Amount,set_ConvertedAmount]=useState(0)
   const [to,setTo] =useState("inr")
   const [from,setFrom] =useState("usd")

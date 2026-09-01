@@ -10,16 +10,7 @@ function InputBox({
     selected_currency="usd"
 }
 
-
-
-
-
 ) {
-
-
-
-
-
     return (
         <div className={`bg-white p-3 rounded-lg text-sm flex `}>
             <div className="w-1/2">
