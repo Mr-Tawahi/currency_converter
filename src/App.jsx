@@ -52,6 +52,7 @@ const convert=()=>{
                                 onAmountChange={(amount)=>{
                                   set_Amount(amount)
                                 }}
+                                onCurrencyChange={(currency)=>(setFrom(currency))}
                                 
                             />
                         </div>
